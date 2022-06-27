@@ -13,3 +13,12 @@ function bestFruit(){
 }
 
 bestFruit();
+
+function countries(){
+    country = 'Colombia'; //Sino se declara correctamente automaticamente es global
+    console.log(country);  
+}
+
+countries();
+
+console.log(country);
